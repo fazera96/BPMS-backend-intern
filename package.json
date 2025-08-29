@@ -1,0 +1,25 @@
+{
+  "name": "bpms",
+  "bin": "server.js",
+  "version": "1.0.0",
+  "description": "Backend for BPMS",
+  "main": "server.js",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^7.0.3",
+    "sequelize": "^6.37.5"
+  }
+}
